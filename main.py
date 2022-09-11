@@ -1,14 +1,11 @@
 import random
 
-
 name = input("Hey there! What's your name? ")
-
 response1 = [
     "Greetings, " + name + ". My name is ChanBot, nice to meet you.",
     "Welcome, " + name + ". My name is ChanBot, nice to meet you.",
     "Nice to meet you, " + name + ". My name is ChanBot."
 ]
-
 randresp1 = random.randint(0, 2)
 print(response1[randresp1])
 
@@ -38,7 +35,5 @@ def theWeather(weather):
       print("I hate the cold, make sure to wear your coat.")
   else:
     print("Beautiful, lets move on.")
-
 weather = input("\nWhat is the weather like today? ").lower()
 theWeather(weather)
-
