@@ -38,5 +38,3 @@ def theWeather(weather):
 
 weather = input("\nWhat is the weather like today? ").lower()
 theWeather(weather)
-
-print('test')
