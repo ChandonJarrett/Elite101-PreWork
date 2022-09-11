@@ -35,5 +35,8 @@ def theWeather(weather):
       print("I hate the cold, make sure to wear your coat.")
   else:
     print("Beautiful, lets move on.")
+
 weather = input("\nWhat is the weather like today? ").lower()
 theWeather(weather)
+
+print('test')
